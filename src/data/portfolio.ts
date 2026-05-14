@@ -1,3 +1,6 @@
+import rentRideImg from "../assets/rentRideImg.jpg";
+import hospitalImg from "../assets/hospitalImg.jpg";
+
 export const personal = {
   name: "Akash Yadav",
   title: "Full Stack MERN Developer",
@@ -41,6 +44,8 @@ export const experience = [
 export const projects = [
   {
     title: "Rent-A-Ride – Self Drive Car Rental Platform",
+    image: rentRideImg,
+
     description:
       "A self-drive car rental platform enabling users to browse, check availability, and book vehicles online with secure auth.",
     points: [
@@ -54,6 +59,7 @@ export const projects = [
   },
   {
     title: "Hospital Management System",
+    image: hospitalImg,
     description:
       "A hospital record management system to manage patient and staff data with structured backend services.",
     points: [
@@ -62,6 +68,7 @@ export const projects = [
       "Secure CRUD operations across modules",
     ],
     tags: ["Node.js", "Express", "MongoDB"],
+     demo: "#",
     github: "https://github.com/akashYadav070",
   },
 ];

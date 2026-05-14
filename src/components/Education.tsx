@@ -17,14 +17,16 @@ export function Education() {
               transition={{ duration: 0.4, delay: i * 0.08 }}
               className="flex items-center gap-4 rounded-xl border border-border bg-card p-5 shadow-card transition-colors hover:border-primary/40"
             >
-              <div className="rounded-lg bg-gradient-primary p-3 text-primary-foreground">
+              <div className="rounded-lg bg-blue-400 p-3 text-white shadow-md">
                 <GraduationCap className="size-5" />
               </div>
+
               <div className="flex-1">
                 <h3 className="font-semibold">{ed.degree}</h3>
                 <p className="text-sm text-muted-foreground">{ed.school}</p>
               </div>
-              <span className="rounded-full bg-secondary px-3 py-1 text-xs font-medium">
+
+              <span className="rounded-full bg-blue-400 px-4 py-1.5 text-sm font-semibold text-white shadow-md">
                 {ed.detail}
               </span>
             </motion.div>
@@ -38,15 +40,17 @@ export function Education() {
           transition={{ duration: 0.5 }}
           className="rounded-2xl border border-border bg-card p-6 shadow-card"
         >
-          <div className="mb-4 inline-flex rounded-lg bg-gradient-primary p-3 text-primary-foreground">
+          <div className="mb-4 inline-flex rounded-lg bg-blue-400 p-3 text-white shadow-md">
             <LangIcon className="size-5" />
           </div>
+
           <h3 className="mb-4 text-lg font-semibold">Languages</h3>
+
           <div className="flex flex-wrap gap-2">
             {languages.map((l) => (
               <span
                 key={l}
-                className="rounded-full border border-border bg-secondary px-3 py-1.5 text-sm font-medium"
+                className="rounded-full bg-blue-400 px-4 py-2 text-sm font-semibold text-white shadow-md transition-all duration-300 hover:scale-105"
               >
                 {l}
               </span>

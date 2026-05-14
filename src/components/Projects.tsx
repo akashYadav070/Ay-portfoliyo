@@ -16,11 +16,13 @@ export function Projects() {
             transition={{ duration: 0.6, delay: i * 0.1 }}
             className="group flex flex-col rounded-2xl border border-border bg-card p-6 shadow-card transition-all hover:-translate-y-1 hover:border-primary/40 hover:shadow-elegant"
           >
-            <div className="mb-5 flex h-40 items-center justify-center overflow-hidden rounded-xl bg-gradient-primary text-primary-foreground">
-              <span className="font-display text-3xl font-bold opacity-90">
-                {p.title.split(" ")[0]}
-              </span>
-            </div>
+            <div className="mb-5 h-40 overflow-hidden rounded-xl">
+  <img
+    src={p.image}
+    alt={p.title}
+    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+  />
+</div>
             <h3 className="mb-2 text-xl font-bold">{p.title}</h3>
             <p className="mb-4 text-sm leading-relaxed text-muted-foreground">
               {p.description}
@@ -49,7 +51,7 @@ export function Projects() {
                   href={p.demo}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-1.5 rounded-full bg-gradient-primary px-4 py-2 text-xs font-semibold text-primary-foreground transition-transform hover:scale-105"
+                  className="inline-flex items-center gap-2 rounded-full bg-blue-300 px-6 py-3 text-sm font-semibold text-black shadow-md transition-all duration-300 hover:scale-105"
                 >
                   <ExternalLink className="size-3.5" />
                   Live Demo
@@ -59,7 +61,7 @@ export function Projects() {
                 href={p.github}
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-1.5 rounded-full border border-border px-4 py-2 text-xs font-semibold text-foreground transition-colors hover:bg-secondary"
+                className="inline-flex items-center gap-2 rounded-full border border-border bg-white/40 px-6 py-3 text-sm font-semibold text-black transition-all duration-300 hover:bg-white/70"
               >
                 <Github className="size-3.5" />
                 Code

@@ -38,7 +38,7 @@ export function Contact() {
               transition={{ delay: i * 0.08 }}
               className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5 shadow-card transition-all hover:-translate-y-0.5 hover:border-primary/40"
             >
-              <div className="rounded-xl bg-gradient-primary p-3 text-primary-foreground">
+              <div className="rounded-xl bg-blue-400 p-3 text-white">
                 <it.icon className="size-5" />
               </div>
               <div>
@@ -76,7 +76,7 @@ export function Contact() {
           </div>
           <button
             type="submit"
-            className="group inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-elegant transition-transform hover:scale-[1.02] sm:w-auto"
+           className="group inline-flex w-full items-center justify-center gap-2 rounded-xl bg-blue-400 px-6 py-3 text-sm font-semibold text-white shadow-elegant transition-transform hover:scale-[1.02] sm:w-auto"
           >
             <Send className="size-4 transition-transform group-hover:translate-x-0.5" />
             {sent ? "Opening mail…" : "Send Message"}
