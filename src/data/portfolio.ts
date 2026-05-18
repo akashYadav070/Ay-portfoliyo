@@ -54,8 +54,8 @@ export const projects = [
       "Created a fully responsive frontend with React",
     ],
     tags: ["React", "Node.js", "Express", "MongoDB", "Tailwind"],
-    demo: "#",
-    github: "https://github.com/akashYadav070",
+    demo: "https://self-drive-car.pages.dev",
+    github: "https://github.com/akashYadav070/Self-Drive-Car.git",
   },
   {
     title: "Hospital Management System",
@@ -68,16 +68,16 @@ export const projects = [
       "Secure CRUD operations across modules",
     ],
     tags: ["Node.js", "Express", "MongoDB"],
-     demo: "#",
-    github: "https://github.com/akashYadav070",
+     demo: "https://1df93343.hospital-management-system-bmu.pages.dev/",
+    github: "https://github.com/akashYadav070/Hospital-Management-System",
   },
 ];
 
 export const education = [
-  { degree: "MCA", school: "JECRC University", detail: "Present" },
-  { degree: "BCA", school: "University of Rajasthan", detail: "61%" },
-  { degree: "Senior Secondary (12th)", school: "RBSE", detail: "60%" },
-  { degree: "Secondary (10th)", school: "RBSE", detail: "50%" },
+  { degree: "MCA", school: "JECRC University" },
+  { degree: "BCA", school: "University of Rajasthan" },
+  { degree: "Senior Secondary (12th)", school: "RBSE" },
+  { degree: "Secondary (10th)", school: "RBSE" },
 ];
 
 export const languages = ["Hindi", "English", "Punjabi", "Haryanvi"];
