@@ -1,3 +1,4 @@
+import resumePDF from "../Akash_Yadav_CV.pdf";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Download, ArrowRight } from "lucide-react";
 import profile from "@/assets/profile.jpg";
@@ -39,8 +40,8 @@ export function Hero() {
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a
-              href="/resume.pdf"
-              download
+              href={resumePDF}
+              download="Akash_Yadav_CV.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
             >
               <Download className="size-4" />
