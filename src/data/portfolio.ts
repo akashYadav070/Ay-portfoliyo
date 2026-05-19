@@ -1,5 +1,20 @@
 import rentRideImg from "../assets/rentRideImg.jpg";
 import hospitalImg from "../assets/hospitalImg.jpg";
+import jecrcCertificate from "../assets/certificates/image1.png";
+
+export const certificates = [
+  {
+    title: "Certificate of Accomplishment",
+    subtitle: "MERN Full Stack Live Project",
+    issuer: "CollegeDekho / ImaginXP / JECRC University",
+    project: "Gatherly – An Event Management Website",
+    date: "Mar 27, 2025 – Jul 30, 2025",
+    description:
+      "Successfully completed a live project based on MERN Full Stack under the guidance of Industry Expert Mr. Rajesh Chaudhari.",
+    image: jecrcCertificate,
+    certificateUrl: "/certificates/JECRC-Akash-Yadav.pdf",
+  },
+];
 
 export const personal = {
   name: "Akash Yadav",
