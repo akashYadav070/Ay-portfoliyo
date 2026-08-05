@@ -41,7 +41,7 @@ export function Hero() {
             </a>
             <a
               href={resumePDF}
-              download="Akash yadav resume2.pdf"
+              download="Akash_yadav_CV.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary"
             >
               <Download className="size-4" />
