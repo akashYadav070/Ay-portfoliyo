@@ -1,4 +1,4 @@
-import resumePDF from "../Akash_Yadav_resume2.pdf";
+import resumePDF from "../Akash_Yadav_CV.pdf";
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Download, ArrowRight } from "lucide-react";
 import profile from "@/assets/profile.jpg";
